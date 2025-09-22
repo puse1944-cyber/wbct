@@ -1,0 +1,67 @@
+# Archivos de configuración sensibles
+config.php
+database.php
+.env
+.env.local
+
+# Logs y archivos de debug
+*.log
+error_log.php
+debug.log
+php_errors.log
+debug_api_*.log
+response_log.txt
+redirect_log.txt
+cart_response_log.txt
+stripe_log.txt
+
+# Archivos temporales y de sesión
+*.tmp
+*.temp
+session_*
+cookie.txt
+cookies.txt
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos de cache
+cache/
+tmp/
+temp/
+
+# Archivos de dependencias (si usas Composer)
+vendor/
+composer.lock
+
+# Archivos de Node.js (si usas npm)
+node_modules/
+package-lock.json
+
+# Archivos específicos del proyecto que no deben versionarse
+gates/bra_log
+gates/cookie.txt
+gates/cookies.txt
+gates/debug.log
+gates/php_errors.log
+gates/response_log.txt
+gates/redirect_log.txt
+gates/cart_response_log.txt
+gates/stripe_log.txt
+gates/debug_api_*.log
+
+stripe/cookie.txt
+stripe/stripe_log.txt
