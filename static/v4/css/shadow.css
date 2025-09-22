@@ -1,0 +1,58 @@
+#consola-shadow{background-color:#000;color:#3f0;font:Inconsolata,monospace;text-shadow:0 0 5px #fcfcfc}.threads{font-family:righteous,cursive;font-style:normal;font-weight:100}.text-highlight{padding:4px 6px;color:#fff}.progress-bar-animated{-webkit-animation:progress-bar-stripes 1s linear infinite;animation:progress-bar-stripes 1s linear infinite}.progress-bar-striped{background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);background-size:1rem 1rem}.badge-shadow{display:inline-block;padding:.2em .45em;padding-top:.2em;padding-right:.4em;padding-bottom:.1em;padding-left:.4em;font-size:80%;font-weight:100;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10px;-webkit-transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out}select option{margin:40px;background:rgba(0,0,0);color:#fff;text-shadow:0 1px 0 rgba(0,0,0,.4)}body {
+    background-color: #1a237e; /* Azul aurora */
+}
+
+#consola-shadow {
+    background-color: #000;
+    color: #3f0;
+    font: Inconsolata, monospace;
+    text-shadow: 0 0 5px #fcfcfc;
+}
+
+.threads {
+    font-family: righteous, cursive;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.text-highlight {
+    padding: 4px 6px;
+    color: #fff;
+}
+
+.progress-bar-animated {
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+}
+
+.badge-shadow {
+    display: inline-block;
+    padding: .2em .45em;
+    padding-top: .2em;
+    padding-right: .4em;
+    padding-bottom: .1em;
+    padding-left: .4em;
+    font-size: 80%;
+    font-weight: 100;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .4);
+}
