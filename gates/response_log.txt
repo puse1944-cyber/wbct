@@ -1,0 +1,50 @@
+Respuesta: Respuesta inválida de RandomUser API
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Proceso detenido después de actualizar carrito debido a endpoint buy-sso en 503. Revisa logs para continuar.
+Respuesta: Proceso detenido después de actualizar carrito debido a endpoint buy-sso en 503. Revisa logs para continuar.
+Respuesta: Proceso detenido después de actualizar carrito debido a endpoint buy-sso en 503. Revisa logs para continuar.
+Respuesta: Proceso detenido después de actualizar carrito debido a endpoint buy-sso en 503. Revisa logs para continuar.
+Respuesta: Proceso detenido después de actualizar carrito debido a endpoint buy-sso en 503. Revisa logs para continuar.
+Respuesta: Proceso detenido después de actualizar carrito debido a endpoint buy-sso en 503. Revisa logs para continuar.
+Respuesta: Error HTTP 400 en Actualizar carrito (URL: https://orders.enscape3d.com/api/v1/webshop/cart) (URL final: https://orders.enscape3d.com/api/v1/webshop/cart): the provided email is not valid
+Respuesta: Proceso detenido después de actualizar carrito debido a endpoint buy-sso en 503. Revisa logs para continuar.
+Carrito actualizado con éxito: 
+Carrito actualizado con éxito: 
+Carrito actualizado con éxito: 
+Carrito actualizado con éxito: 
+Carrito actualizado con éxito: 
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Carrito actualizado con éxito: 
+Carrito actualizado con éxito: 
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Carrito actualizado con éxito: 
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Carrito actualizado con éxito: 
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+Carrito actualizado con éxito: 
+Respuesta: Error 503 Servicio no disponible en Obtener firma de página (URL: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab) (URL final: https://buy-sso.enscape3d.com/api/payment/page-signature/2c92a0fe75e3c7200175f9dbafe966ab). El endpoint podría estar obsoleto.
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
+2025-09-14 20:58:55 - Respuesta: Invalid CSRF token ❌
