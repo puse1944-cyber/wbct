@@ -71,7 +71,7 @@ CREATE TABLE `breathe_lives` (
   KEY `idx_gate` (`gate`),
   KEY `idx_status` (`status`),
   KEY `idx_created_at` (`created_at`),
-  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE
+  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================
@@ -89,7 +89,7 @@ CREATE TABLE `breathe_subscriptions` (
   PRIMARY KEY (`id`),
   KEY `idx_user_id` (`user_id`),
   KEY `idx_is_active` (`is_active`),
-  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE
+  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================
@@ -126,7 +126,7 @@ CREATE TABLE `breathe_logs` (
   KEY `idx_user_id` (`user_id`),
   KEY `idx_action` (`action`),
   KEY `idx_created_at` (`created_at`),
-  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE SET NULL
+  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE SET NULL ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================
@@ -200,7 +200,7 @@ CREATE TABLE `breathe_credit_transactions` (
   KEY `idx_user_id` (`user_id`),
   KEY `idx_transaction_type` (`transaction_type`),
   KEY `idx_created_at` (`created_at`),
-  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE
+  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================
@@ -219,7 +219,7 @@ CREATE TABLE `breathe_sessions` (
   UNIQUE KEY `session_token` (`session_token`),
   KEY `idx_user_id` (`user_id`),
   KEY `idx_last_activity` (`last_activity`),
-  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE
+  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================
@@ -243,7 +243,7 @@ CREATE TABLE `login_monitor_logs` (
   KEY `idx_user_id` (`user_id`),
   KEY `idx_ip` (`ip`),
   KEY `idx_created_at` (`created_at`),
-  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE
+  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================
@@ -386,6 +386,35 @@ BEGIN
         (SELECT COUNT(*) FROM `breathe_gates` WHERE `is_active` = 1) as active_gates;
 END$$
 DELIMITER ;
+
+-- =============================================
+-- SOLUCIÓN PARA ERRORES DE CLAVE FORÁNEA
+-- =============================================
+
+-- Si encuentras errores de restricción de clave foránea, ejecuta estos comandos:
+
+-- 1. Deshabilitar verificación de claves foráneas temporalmente
+-- SET FOREIGN_KEY_CHECKS = 0;
+
+-- 2. Eliminar todas las tablas en orden inverso (si es necesario)
+-- DROP TABLE IF EXISTS `breathe_system_config`;
+-- DROP TABLE IF EXISTS `login_monitor_logs`;
+-- DROP TABLE IF EXISTS `breathe_sessions`;
+-- DROP TABLE IF EXISTS `breathe_credit_transactions`;
+-- DROP TABLE IF EXISTS `breathe_gates`;
+-- DROP TABLE IF EXISTS `breathe_telegram_users`;
+-- DROP TABLE IF EXISTS `breathe_telegram_config`;
+-- DROP TABLE IF EXISTS `breathe_logs`;
+-- DROP TABLE IF EXISTS `breathe_news`;
+-- DROP TABLE IF EXISTS `breathe_subscriptions`;
+-- DROP TABLE IF EXISTS `breathe_lives`;
+-- DROP TABLE IF EXISTS `breathe_keys`;
+-- DROP TABLE IF EXISTS `breathe_users`;
+
+-- 3. Rehabilitar verificación de claves foráneas
+-- SET FOREIGN_KEY_CHECKS = 1;
+
+-- 4. Luego ejecutar este script completo nuevamente
 
 -- =============================================
 -- FIN DEL SCRIPT
