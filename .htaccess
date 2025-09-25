@@ -1,0 +1,168 @@
+# ===========================
+# Páginas de error personalizadas
+# ===========================
+ErrorDocument 400 /400.html
+ErrorDocument 401 /401.html
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+ErrorDocument 503 /503.html
+
+# ===========================
+# Seguridad básica
+# ===========================
+Options -Indexes
+
+# ===========================
+# Forzar HTTPS y no-www
+# ===========================
+RewriteEngine On
+
+# Si no está en HTTPS -> redirigir a HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirección de www a no-www
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www\.dark-ct\.com [NC]
+RewriteRule ^(.*)$ https://dark-ct.com/$1 [R=301,L]
+
+# ===========================
+# Políticas de seguridad
+# ===========================
+<IfModule mod_headers.c>
+    Header always set Content-Security-Policy "upgrade-insecure-requests"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "DENY"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>
+
+# ===========================
+# Reglas de reescritura (URLs amigables)
+# ===========================
+# Archivos en raíz
+RewriteRule ^user/sign-in/?$ /sign-in.php [L,QSA]
+RewriteRule ^user/sign-up/?$ /sign-up.php [L,QSA]
+RewriteRule ^logout/?$ /logout.php [L,QSA]
+RewriteRule ^mis-lives/?$ /mis-lives.php [L,QSA]
+RewriteRule ^canjear-key/?$ /canjear-key.php [L,QSA]
+
+# Admin
+RewriteRule ^admin/?$ /admin-add-user.php [L,QSA]
+RewriteRule ^admin/consultar-usuario/?$ /admin-consultar-usuario.php [L,QSA]
+RewriteRule ^admin/generar-key/?$ /admin-generar-key.php [L,QSA]
+RewriteRule ^admin/keys/?$ /admin-keys.php [L,QSA]
+RewriteRule ^admin/login-monitor/?$ /admin-login-monitor.php [L,QSA]
+
+# Herramientas
+RewriteRule ^herramientas/ccdump/?$ /herramientas/ccdump.php [L,QSA]
+RewriteRule ^herramientas/telegram-config/?$ /herramientas/telegram-config.php [L,QSA]
+
+# Gates
+RewriteRule ^gates/amazon/?$ /gates/amazon.php [L,QSA]
+RewriteRule ^gates/amazon-api/?$ /gates/amazon_api.php [L,QSA]
+RewriteRule ^gates/chase/?$ /gates/chase_gate.php [L,QSA]
+RewriteRule ^gates/paypal/?$ /gates/paypal_gate.php [L,QSA]
+RewriteRule ^gates/stripe/?$ /gates/stripe_gate.php [L,QSA]
+RewriteRule ^gates/stripezoura/?$ /gates/stripezoura.php [L,QSA]
+RewriteRule ^gates/miracle/?$ /gates/miracle.php [L,QSA]
+RewriteRule ^gates/mirror/?$ /gates/mirror.php [L,QSA]
+RewriteRule ^gates/mystric/?$ /gates/mystric.php [L,QSA]
+
+# API
+RewriteRule ^api/v1.1/(.*)$ /api/v1.1/$1 [L,QSA]
+
+# ===========================
+# Protección de archivos sensibles
+# ===========================
+<FilesMatch "\.(htaccess|htpasswd|ini|log|conf|config|sql|md)$">
+    Require all denied
+</FilesMatch>
+
+# Proteger solo archivos de configuración sensibles
+<FilesMatch "\.(env|config|ini|log|sql|bak|backup|old|tmp)$">
+    Require all denied
+</FilesMatch>
+
+# ===========================
+# Compresión GZIP
+# ===========================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+</IfModule>
+
+# ===========================
+# Cache para estáticos
+# ===========================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/plain "access plus 1 month"
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType application/json "access plus 1 hour"
+</IfModule>
+
+# ===========================
+# Headers de cache
+# ===========================
+<IfModule mod_headers.c>
+    # Cache para archivos estáticos
+    <FilesMatch "\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$">
+        Header set Cache-Control "public, max-age=31536000"
+    </FilesMatch>
+    
+    # No cache para archivos PHP
+    <FilesMatch "\.(php)$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </FilesMatch>
+</IfModule>
+
+# ===========================
+# Optimizaciones adicionales
+# ===========================
+# Habilitar KeepAlive
+<IfModule mod_headers.c>
+    Header set Connection keep-alive
+</IfModule>
+
+# Comprimir archivos de texto
+<IfModule mod_mime.c>
+    AddType application/javascript .js
+    AddType text/css .css
+</IfModule>
+
+# ===========================
+# Protección contra ataques
+# ===========================
+# Bloquear user agents maliciosos
+<IfModule mod_rewrite.c>
+    RewriteCond %{HTTP_USER_AGENT} ^$ [OR]
+    RewriteCond %{HTTP_USER_AGENT} ^(-|\.|') [OR]
+    RewriteCond %{HTTP_USER_AGENT} ^(.*)(<|>|%0A|%0D|%27|%3C|%3E|%00) [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^(java|curl|wget) [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^.*(winhttp|HTTrack|clshttp|archiver|loader|email|harvest|extract|grab|miner) [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^.*(libwww-perl|curl|wget|python|nikto|scan) [NC,OR]
+    RewriteCond %{HTTP_USER_AGENT} ^.*(<|>|'|%0A|%0D|%27|%3C|%3E|%00) [NC]
+    RewriteRule .* - [F]
+</IfModule>

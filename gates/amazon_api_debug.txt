@@ -1,0 +1,735 @@
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:50:02+02:00",
+    "user_id": "286",
+    "credits_before": "999999",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418176284|07|2027|368",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999999"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:50:15+02:00",
+    "user_id": "286",
+    "credits_before": "999999",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418173406|07|2027|459",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999999"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:50:29+02:00",
+    "user_id": "286",
+    "credits_before": "999999",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418177670|07|2027|254",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999999"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:50:41+02:00",
+    "user_id": "286",
+    "credits_before": "999999",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418175302|07|2027|480",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "success",
+    "message": "Cart\u00e3o vinculado com sucesso. (Removido: \u2705 )",
+    "credits_charged": true,
+    "credits_remaining": 999997
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:50:52+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418171939|07|2027|867",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:51:03+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418178546|07|2027|985",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:51:16+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418170139|07|2027|135",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:51:29+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418171103|07|2027|312",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:51:42+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418170303|07|2027|725",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:51:54+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "5165760418170956|07|2027|196",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:52:22+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368386159|05|2029|897",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:52:34+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368393312|05|2029|576",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:52:45+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368377182|05|2029|227",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:52:56+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368398519|05|2029|815",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:53:09+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368316842|05|2029|814",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:53:21+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368365401|05|2029|169",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:53:31+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368376473|05|2029|188",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:53:42+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368372522|05|2029|339",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:53:53+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368377430|05|2029|727",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:54:03+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368325603|05|2029|439",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:54:45+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368326965|05|2029|547",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:54:59+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368376986|05|2029|808",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:55:14+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368352714|05|2029|720",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:55:28+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368313476|05|2029|591",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:55:40+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368332922|05|2029|491",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:55:52+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368333664|05|2029|740",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:56:04+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368347698|05|2029|669",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:56:15+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368382844|05|2029|236",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:56:32+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368349603|05|2029|956",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:56:45+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368358851|05|2029|314",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:57:33+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368308369|05|2029|882",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u2705 )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:57:45+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368344133|05|2029|221",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Cart\u00e3o inexistente. (Removido: \u274c )",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:58:03+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368388759|05|2029|286",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Erro ao obter acesso passkey, clique em \"Minha conta\" e depois \"Seguran\u00e7a\" e fa\u00e7a login novamente.",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:58:07+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368361145|05|2029|323",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Erro ao obter acesso passkey, clique em \"Minha conta\" e depois \"Seguran\u00e7a\" e fa\u00e7a login novamente.",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
+
+=== NUEVA PETICIÓN ===
+{
+    "timestamp": "2025-09-23T03:58:11+02:00",
+    "user_id": "286",
+    "credits_before": "999997",
+    "cookie_length": 1353,
+    "payload": {
+        "lista": "4268070368367126|05|2029|792",
+        "cookies": "csm-hit=tb:s-HGGEBHVAK2NQH6HH55RJ|1758592133082&t:1758592133744&adb:adblk_no;session-id=143-3254362-7176937;sst-acbmx=Sst1|PQFRkXxHdvWQ60JPyAUCkuouCULetWuf_1Laorfv5ABiDSAQ0VsxqlPd-i5ZwAYomQpmUolVO5nNDsQ0ul1dflE9hNSaC8RxUwHe8CFxKvORglI4UIHlmbZzTM8tumeq21eZQ4I0WNT2M3A6bM-4Z-pE_9xK90UorHxHvRGlZ4jayUzWkb-_wbqIBJBfjsdk63R25bNCDx3f0zZ2Xo8LnykjHyMSG0v6o4B5pvRQf2ZjyCaWypTAgOamLusJVMYbxnNSjGMvF6BZB1VSQc4L5Sfeg2EDCFuwVdsV1EincJfoudY;id_pk=eyJuIjoiMCJ9;at-acbmx=Atza|IwEBIGVHdIcvi706KhJzobS6hMw6-3UfyBBt23p8AUirfXHZckzMr4__IyV074dOxgFg9Hw6jNwhhiTd1mM6BuQ0IUfTZPVvNngzbpE3mGJvB_C3hY-wd0y1VF0o_0Ntm2IB2PnwhenRKfLnZjar6oCVIM4RNyLX-4ZZwzvEmKfU1BOW1Dld5lnzo50XIXui0uVnTZXv5zqp2LDqd2nsi5bJJVu4ZhWm4XPjDalxMIVsFprpyw;i18n-prefs=MXN;id_pkel=n0;lc-acbmx=es_MX;rxc=AJGXxuBTdfdhOxKsLaY;sess-at-acbmx=\"YAe81Csx8wG8ZRb4UUeVWtEvtc32hS0yJkUa2jKzQkA=\";session-id-time=2082787201l;session-token=OR9iv592b+GLr+7eOKHLsZAcXCzAxzMiEs9XJh1jxSX3A7Nqk21xQRCrqqeLlELzhB9SqsSwhCqGAY+UpcsaPTjmcQd6RRUpLMoaX41GRcgCP2kisTWf629FUFxU5sd0tlopUWlv0klZNKefq1vf1dPWgUe9Gb4qdZXwd+JiKxAqsh5oUD9p97vZzIgGQtTUABc2uppFoVseAj1coTIxz6V\/Cfn43DV8shZZamyB\/A8mIDXNI2X3jr4T7\/7Z7Cce6f+y7xJziroKt1O9mqHq\/Kt2uh\/0Cuncsj01NCodbw84XLdFHq9hZxOlaQdiHhiggsGAKY+1QejqlgDUDtQPbJza6C3yydfHNU\/MUo4g1oPc0LofApU1fg==;ubid-acbmx=130-2613946-3407845;x-acbmx=\"@5tHm9sXxfHjztoJkc7G0V@R50liFzvOn9uHkDvmKmmvV8OPa7SLaVU3C?vUm7IL\"",
+        "pais": "MX"
+    }
+}
+=== RESULTADO FINAL ===
+{
+    "status": "error",
+    "message": "Erro ao obter acesso passkey, clique em \"Minha conta\" e depois \"Seguran\u00e7a\" e fa\u00e7a login novamente.",
+    "credits_charged": false,
+    "credits_remaining": "999997"
+}
+
