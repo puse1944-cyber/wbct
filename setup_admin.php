@@ -101,10 +101,20 @@
         <?php
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Configuración de la base de datos
-            $host = 'localhost';
-            $dbname = 'darkct';
-            $username = 'root';
-            $password = '';
+            // Detectar si estamos en localhost o hosting
+            if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false || strpos($_SERVER['HTTP_HOST'], '127.0.0.1') !== false) {
+                // Configuración para XAMPP local
+                $host = 'localhost';
+                $dbname = 'darkct';
+                $username = 'root';
+                $password = '';
+            } else {
+                // Configuración para hosting externo
+                $host = 'db5018661323.hosting-data.io';
+                $dbname = 'dbs14784496';
+                $username = 'dbu2919208';
+                $password = 'Pelucas09.';
+            }
             
             // Obtener datos del formulario
             $admin_username = $_POST['username'] ?? '';

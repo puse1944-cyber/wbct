@@ -5,10 +5,29 @@
  */
 
 // Configuración de la base de datos
-$host = 'localhost';
-$dbname = 'darkct';
-$username = 'root';
-$password = '';
+// Detectar si estamos en localhost o hosting
+if (php_sapi_name() === 'cli') {
+    // Si se ejecuta desde línea de comandos, usar configuración local
+    $host = 'localhost';
+    $dbname = 'darkct';
+    $username = 'root';
+    $password = '';
+} else {
+    // Si se ejecuta desde navegador, detectar entorno
+    if (strpos($_SERVER['HTTP_HOST'], 'localhost') !== false || strpos($_SERVER['HTTP_HOST'], '127.0.0.1') !== false) {
+        // Configuración para XAMPP local
+        $host = 'localhost';
+        $dbname = 'darkct';
+        $username = 'root';
+        $password = '';
+    } else {
+        // Configuración para hosting externo
+        $host = 'db5018661323.hosting-data.io';
+        $dbname = 'dbs14784496';
+        $username = 'dbu2919208';
+        $password = 'Pelucas09.';
+    }
+}
 
 // Datos del administrador (CAMBIAR ESTOS VALORES)
 $admin_username = 'admin';           // Cambiar por tu username
