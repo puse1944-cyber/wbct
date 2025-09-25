@@ -31,7 +31,7 @@ function alert($message, $success = false)
         echo "<script>document.getElementById('iniciaSonido').play().catch(e => console.log('Audio no disponible:', e));</script>";
     }
 
-    echo "<script>let timerInterval; Swal.fire({icon: '" . $icon . "', text: '" . $message . "', timer: 1800, timerProgressBar: true, didOpen: ()=>{Swal.showLoading(); const b=Swal.getHtmlContainer().querySelector('b'); timerInterval=setInterval(()=>{b.textContent=Swal.getTimerLeft();}, 100);}, willClose: ()=>{clearInterval(timerInterval);},}).then((result)=>{if (result.dismiss===Swal.DismissReason.timer){window.location='" . $url . "';}});</script>";
+    echo "<script>let timerInterval; Swal.fire({icon: '" . $icon . "', text: '" . $message . "', timer: 1800, timerProgressBar: true, didOpen: ()=>{Swal.showLoading(); const b=Swal.getHtmlContainer().querySelector('b'); timerInterval=setInterval(()=>{if(b) b.textContent=Swal.getTimerLeft();}, 100);}, willClose: ()=>{clearInterval(timerInterval);},}).then((result)=>{if (result.dismiss===Swal.DismissReason.timer){window.location='" . $url . "';}});</script>";
 }
 
 if (!isset($_SESSION["csrf_rnd"])) {
