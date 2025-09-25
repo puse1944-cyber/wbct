@@ -13,17 +13,67 @@ require_once $path."/api/v1.1/core/brain.php";
 function get_news()
 {
     global $connection;
-    $query = $connection->prepare("SELECT * FROM breathe_news ORDER BY ID DESC LIMIT 5");
-    $query->execute();
+    try {
+        $query = $connection->prepare("SELECT * FROM breathe_news WHERE is_published = 1 ORDER BY priority DESC, created_at DESC LIMIT 5");
+        $query->execute();
 
-    $list = "";
+        $list = "";
 
-    while ($result = $query->fetch(PDO::FETCH_ASSOC)) {
-        $list .= "<div class='listview listview--bordered'><div class='listview__item'><div class='listview__content'><div class='listview__heading'>[ " . $result["titulo"] . " ] | " . $result["fecha"] . "</div><div class='listview__attrs'><span>" . $result["mensaje"] . "</span><span>By: " . $result["usuario"] . "</span></div></div></div></div>";
+        while ($result = $query->fetch(PDO::FETCH_ASSOC)) {
+            $priority_badge = "";
+            if ($result["priority"] == 1) {
+                $priority_badge = '<span class="badge badge-warning">ALTA</span> ';
+            } elseif ($result["priority"] == 2) {
+                $priority_badge = '<span class="badge badge-danger">MUY ALTA</span> ';
+            }
+            
+            $date = date('d/m/Y H:i', strtotime($result["created_at"]));
+            $content = strlen($result["content"]) > 100 ? substr($result["content"], 0, 100) . '...' : $result["content"];
+            
+            $list .= "<div class='listview listview--bordered'>
+                        <div class='listview__item'>
+                            <div class='listview__content'>
+                                <div class='listview__heading'>
+                                    {$priority_badge}" . htmlspecialchars($result["title"]) . "
+                                    <small class='text-muted float-right'>{$date}</small>
+                                </div>
+                                <div class='listview__attrs'>
+                                    <span>" . htmlspecialchars($content) . "</span>
+                                    <br>
+                                    <small class='text-muted'>Por: " . htmlspecialchars($result["author"]) . "</small>
+                                </div>
+                            </div>
+                        </div>
+                      </div>";
+        }
+        
+        if (empty($list)) {
+            $list = "<div class='listview listview--bordered'>
+                        <div class='listview__item'>
+                            <div class='listview__content'>
+                                <div class='listview__heading'>No hay noticias disponibles</div>
+                                <div class='listview__attrs'>
+                                    <span>Las noticias aparecerán aquí cuando estén disponibles.</span>
+                                </div>
+                            </div>
+                        </div>
+                      </div>";
+        }
+        
+        return $list;
+    } catch (Exception $e) {
+        error_log("Error en get_news(): " . $e->getMessage());
+        return "<div class='listview listview--bordered'>
+                    <div class='listview__item'>
+                        <div class='listview__content'>
+                            <div class='listview__heading'>Error al cargar noticias</div>
+                            <div class='listview__attrs'>
+                                <span>No se pudieron cargar las noticias en este momento.</span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>";
     }
-    return $list;
-    $query = null;
-    $connection = null;
 }
 
 function get_users($count = false)
