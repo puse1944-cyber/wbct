@@ -21,36 +21,59 @@ function alert($message, $success = false) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $number_key = $_POST['number_key'];
-    $credits = intval($_POST['credits']);
-    $dias = intval($_POST['dias']);
-    $active = $_POST['active'];
-    $username = $_POST['username'];
-    $fecha_reg = date("Y-m-d");
-    $fecha_inicio = date("Y-m-d");
-    $suscripcion = $_POST['suscripcion'];
+    try {
+        $number_key = $_POST['number_key'];
+        $credits = intval($_POST['credits']);
+        $dias = intval($_POST['dias']);
+        $active = $_POST['active'];
+        $username = $_POST['username'];
+        $fecha_reg = date("Y-m-d");
+        $fecha_inicio = date("Y-m-d");
+        $suscripcion = $_POST['suscripcion'];
 
-    // Verificar si la key ya existe
-    $check = $connection->prepare("SELECT * FROM breathe_keys WHERE number_key=:number_key");
-    $check->bindParam("number_key", $number_key, PDO::PARAM_STR);
-    $check->execute();
-    if ($check->rowCount() > 0) {
-        alert("La key ya existe.");
-    } else {
-        $insert = $connection->prepare("INSERT INTO breathe_keys (number_key, credits, dias, active, username, fecha_reg, fecha_inicio, suscripcion) VALUES (:number_key, :credits, :dias, :active, :username, :fecha_reg, :fecha_inicio, :suscripcion)");
-        $insert->bindParam("number_key", $number_key, PDO::PARAM_STR);
-        $insert->bindParam("credits", $credits, PDO::PARAM_INT);
-        $insert->bindParam("dias", $dias, PDO::PARAM_INT);
-        $insert->bindParam("active", $active, PDO::PARAM_STR);
-        $insert->bindParam("username", $username, PDO::PARAM_STR);
-        $insert->bindParam("fecha_reg", $fecha_reg, PDO::PARAM_STR);
-        $insert->bindParam("fecha_inicio", $fecha_inicio, PDO::PARAM_STR);
-        $insert->bindParam("suscripcion", $suscripcion, PDO::PARAM_STR);
-        if ($insert->execute()) {
-            alert("Key generada exitosamente!", true);
+        // Verificar si la tabla existe, si no, crearla
+        $create_table = $connection->prepare("
+            CREATE TABLE IF NOT EXISTS breathe_keys (
+                id int(11) NOT NULL AUTO_INCREMENT,
+                number_key varchar(255) NOT NULL,
+                credits int(11) NOT NULL DEFAULT 0,
+                dias int(11) NOT NULL DEFAULT 30,
+                active tinyint(1) NOT NULL DEFAULT 1,
+                username varchar(255) DEFAULT NULL,
+                fecha_reg date NOT NULL,
+                fecha_inicio date NOT NULL,
+                suscripcion varchar(50) NOT NULL DEFAULT '1',
+                created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                PRIMARY KEY (id),
+                UNIQUE KEY number_key (number_key)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+        ");
+        $create_table->execute();
+
+        // Verificar si la key ya existe
+        $check = $connection->prepare("SELECT * FROM breathe_keys WHERE number_key=:number_key");
+        $check->bindParam("number_key", $number_key, PDO::PARAM_STR);
+        $check->execute();
+        if ($check->rowCount() > 0) {
+            alert("La key ya existe.");
         } else {
-            alert("Error al generar la key.");
+            $insert = $connection->prepare("INSERT INTO breathe_keys (number_key, credits, dias, active, username, fecha_reg, fecha_inicio, suscripcion) VALUES (:number_key, :credits, :dias, :active, :username, :fecha_reg, :fecha_inicio, :suscripcion)");
+            $insert->bindParam("number_key", $number_key, PDO::PARAM_STR);
+            $insert->bindParam("credits", $credits, PDO::PARAM_INT);
+            $insert->bindParam("dias", $dias, PDO::PARAM_INT);
+            $insert->bindParam("active", $active, PDO::PARAM_STR);
+            $insert->bindParam("username", $username, PDO::PARAM_STR);
+            $insert->bindParam("fecha_reg", $fecha_reg, PDO::PARAM_STR);
+            $insert->bindParam("fecha_inicio", $fecha_inicio, PDO::PARAM_STR);
+            $insert->bindParam("suscripcion", $suscripcion, PDO::PARAM_STR);
+            if ($insert->execute()) {
+                alert("Key generada exitosamente!", true);
+            } else {
+                alert("Error al generar la key: " . implode(", ", $insert->errorInfo()));
+            }
         }
+    } catch (Exception $e) {
+        alert("Error: " . $e->getMessage());
     }
 }
 

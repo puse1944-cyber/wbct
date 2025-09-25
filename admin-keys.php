@@ -32,9 +32,38 @@ if (isset($_POST['eliminar_key']) && isset($_POST['key_id'])) {
     }
 }
 
+// Verificar si la tabla existe, si no, crearla
+try {
+    $create_table = $connection->prepare("
+        CREATE TABLE IF NOT EXISTS breathe_keys (
+            id int(11) NOT NULL AUTO_INCREMENT,
+            number_key varchar(255) NOT NULL,
+            credits int(11) NOT NULL DEFAULT 0,
+            dias int(11) NOT NULL DEFAULT 30,
+            active tinyint(1) NOT NULL DEFAULT 1,
+            username varchar(255) DEFAULT NULL,
+            fecha_reg date NOT NULL,
+            fecha_inicio date NOT NULL,
+            suscripcion varchar(50) NOT NULL DEFAULT '1',
+            created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            PRIMARY KEY (id),
+            UNIQUE KEY number_key (number_key)
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+    ");
+    $create_table->execute();
+} catch (Exception $e) {
+    // Si hay error, mostrar mensaje
+    echo "<script>Swal.fire({icon: 'error', text: 'Error al verificar tabla: " . $e->getMessage() . "', timer: 3000});</script>";
+}
+
 // Obtener todas las keys
-$query = $connection->query("SELECT * FROM breathe_keys ORDER BY id DESC");
-$keys = $query->fetchAll(PDO::FETCH_ASSOC);
+try {
+    $query = $connection->query("SELECT * FROM breathe_keys ORDER BY id DESC");
+    $keys = $query->fetchAll(PDO::FETCH_ASSOC);
+} catch (Exception $e) {
+    $keys = [];
+    echo "<script>Swal.fire({icon: 'error', text: 'Error al cargar keys: " . $e->getMessage() . "', timer: 3000});</script>";
+}
 ?>
 
 <section class="content">
