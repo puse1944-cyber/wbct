@@ -55,6 +55,7 @@ RewriteRule ^admin/consultar-usuario/?$ /admin-consultar-usuario.php [L,QSA]
 RewriteRule ^admin/generar-key/?$ /admin-generar-key.php [L,QSA]
 RewriteRule ^admin/keys/?$ /admin-keys.php [L,QSA]
 RewriteRule ^admin/login-monitor/?$ /admin-login-monitor.php [L,QSA]
+RewriteRule ^admin/news/?$ /admin-news.php [L,QSA]
 
 # Herramientas
 RewriteRule ^herramientas/ccdump/?$ /herramientas/ccdump.php [L,QSA]
