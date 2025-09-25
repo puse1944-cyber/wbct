@@ -21,7 +21,7 @@ $limit = 20;
 $offset = ($page - 1) * $limit;
 
 $query = $connection->prepare("
-    SELECT lml.*, bu.email, bu.suscripcion, bu.IS_ADMIN
+    SELECT lml.*, bu.email, bu.suscripcion, (bu.suscripcion = 3) as IS_ADMIN
     FROM login_monitor_logs lml
     LEFT JOIN breathe_users bu ON lml.user_id = bu.id
     ORDER BY lml.created_at DESC

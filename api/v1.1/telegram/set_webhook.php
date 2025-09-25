@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 $bot_token = '8369901800:AAGw0nW-YgDEEgP48DUmtpov8axTVQwOVno';
-$webhook_url = 'https://tu-dominio.com/api/v1.1/telegram/webhook.php'; // Cambiar por tu dominio
+$webhook_url = 'https://dark-ct.com/api/v1.1/telegram/webhook.php'; // Cambiar por tu dominio
 
 echo "<h2>Configuración del Webhook de Telegram</h2>";
 

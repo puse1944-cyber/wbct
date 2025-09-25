@@ -6,19 +6,29 @@
 
 require_once __DIR__ . '/../../core/brain.php';
 
-// Configuración del bot de Telegram
-define('TELEGRAM_BOT_TOKEN', 'TU_BOT_TOKEN_AQUI'); // Cambiar por tu token
-define('TELEGRAM_CHAT_ID', 'TU_CHAT_ID_AQUI'); // Cambiar por tu chat ID
+// Obtener configuración de Telegram desde la base de datos
+function getTelegramConfig() {
+    global $connection;
+    try {
+        $query = $connection->prepare("SELECT bot_token, admin_chat_id FROM breathe_telegram_config WHERE is_active = 1 LIMIT 1");
+        $query->execute();
+        $config = $query->fetch(PDO::FETCH_ASSOC);
+        return $config ?: ['bot_token' => '', 'admin_chat_id' => ''];
+    } catch (Exception $e) {
+        return ['bot_token' => '', 'admin_chat_id' => ''];
+    }
+}
 
 class LoginMonitor {
     private $connection;
     private $bot_token;
     private $chat_id;
     
-    public function __construct($connection, $bot_token, $chat_id) {
+    public function __construct($connection) {
         $this->connection = $connection;
-        $this->bot_token = $bot_token;
-        $this->chat_id = $chat_id;
+        $config = getTelegramConfig();
+        $this->bot_token = $config['bot_token'];
+        $this->chat_id = $config['admin_chat_id'];
     }
     
     /**
@@ -58,7 +68,7 @@ class LoginMonitor {
     private function getUserInfo($user_id) {
         $query = $this->connection->prepare("
             SELECT id, username, email, suscripcion, creditos, fech_reg, 
-                   suscripcion_fin, active, IS_ADMIN
+                   active, (suscripcion = 3) as IS_ADMIN
             FROM breathe_users 
             WHERE id = :user_id
         ");
@@ -235,6 +245,11 @@ class LoginMonitor {
      * Enviar notificación a Telegram
      */
     private function sendTelegramNotification($user_info, $session_info, $suspicious) {
+        // Solo enviar si hay configuración válida
+        if (empty($this->bot_token) || empty($this->chat_id)) {
+            return;
+        }
+        
         $message = $this->formatTelegramMessage($user_info, $session_info, $suspicious);
         
         $url = "https://api.telegram.org/bot{$this->bot_token}/sendMessage";
@@ -292,7 +307,7 @@ class LoginMonitor {
 
 // Función para usar desde otros archivos
 function monitorUserLogin($user_id, $username) {
-    $monitor = new LoginMonitor($connection, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID);
+    $monitor = new LoginMonitor($connection);
     return $monitor->logLogin($user_id, $username);
 }
 ?>

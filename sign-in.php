@@ -497,6 +497,15 @@ if ($csrf_token == $final_token) {
             alert("Creditos Insuficientes");
         } else if (password_verify($password, $result["breathe_password"])) {
             $_SESSION["user_id"] = $result["id"];
+            
+            // Integrar Login Monitor
+            try {
+                require_once "./api/v1.1/core/login_monitor_integration.php";
+                registerUserLogin($result["id"], $result["username"]);
+            } catch (Exception $e) {
+                error_log("Error en Login Monitor: " . $e->getMessage());
+            }
+            
             alert("Bienvenido a ☂ 𝙳𝙰𝚁𝙺 𝙲𝚃 ☂", true);
         } else {
             alert("Contraseña incorrecta");

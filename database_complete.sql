@@ -247,7 +247,32 @@ CREATE TABLE `breathe_sessions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- =============================================
--- 12. TABLA DE CONFIGURACIÓN DEL SISTEMA
+-- 12. TABLA DE LOGS DE LOGIN MONITOR
+-- =============================================
+DROP TABLE IF EXISTS `login_monitor_logs`;
+CREATE TABLE `login_monitor_logs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `ip` varchar(45) NOT NULL,
+  `user_agent` text,
+  `location` varchar(255) DEFAULT NULL,
+  `browser` varchar(100) DEFAULT NULL,
+  `os` varchar(100) DEFAULT NULL,
+  `referer` varchar(500) DEFAULT NULL,
+  `session_id` varchar(128) DEFAULT NULL,
+  `suspicious_activity` json DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `idx_user_id` (`user_id`),
+  KEY `idx_ip` (`ip`),
+  KEY `idx_created_at` (`created_at`),
+  KEY `idx_suspicious` (`suspicious_activity`(255)),
+  FOREIGN KEY (`user_id`) REFERENCES `breathe_users`(`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- =============================================
+-- 13. TABLA DE CONFIGURACIÓN DEL SISTEMA
 -- =============================================
 DROP TABLE IF EXISTS `breathe_system_config`;
 CREATE TABLE `breathe_system_config` (
