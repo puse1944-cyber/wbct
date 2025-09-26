@@ -45,10 +45,14 @@ try {
     $site_page = "Main";
     $path = $_SERVER["DOCUMENT_ROOT"];
     
-    // Verificar que el archivo header existe
-    $headerFile = $path . "/static/v4/plugins/form/header.php";
+    // Verificar que el archivo header moderno existe
+    $headerFile = $path . "/static/v4/plugins/form/header-modern.php";
     if (!file_exists($headerFile)) {
-        throw new Exception("Archivo header no encontrado: " . $headerFile);
+        // Fallback al header original si no existe el moderno
+        $headerFile = $path . "/static/v4/plugins/form/header.php";
+        if (!file_exists($headerFile)) {
+            throw new Exception("Archivo header no encontrado: " . $headerFile);
+        }
     }
     
     // Incluir el header con manejo de errores

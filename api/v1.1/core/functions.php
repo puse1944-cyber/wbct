@@ -15,11 +15,11 @@ function get_news()
     global $connection;
     try {
         $query = $connection->prepare("SELECT * FROM breathe_news WHERE is_published = 1 ORDER BY priority DESC, created_at DESC LIMIT 5");
-        $query->execute();
+    $query->execute();
 
-        $list = "";
+    $list = "";
 
-        while ($result = $query->fetch(PDO::FETCH_ASSOC)) {
+    while ($result = $query->fetch(PDO::FETCH_ASSOC)) {
             $priority_badge = "";
             if ($result["priority"] == 1) {
                 $priority_badge = '<span class="badge badge-warning">ALTA</span> ';

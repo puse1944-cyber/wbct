@@ -30,8 +30,8 @@ if (php_sapi_name() === 'cli') {
 }
 
 // Datos del administrador (CAMBIAR ESTOS VALORES)
-$admin_username = 'admin';           // Cambiar por tu username
-$admin_email = 'admin@darkct.com';   // Cambiar por tu email
+$admin_username = 'jxrdan_09';           // Cambiar por tu username
+$admin_email = 'puse1944@gmail.com';   // Cambiar por tu email
 $admin_password = 'admin123';        // Cambiar por tu password
 $admin_credits = 1000;               // Créditos iniciales
 $subscription_days = 365;            // Días de suscripción
